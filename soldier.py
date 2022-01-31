@@ -16,7 +16,6 @@ class Soldier(Sprite):
 		self.rect = self.image.get_rect()
 		
 		# Start each new soldier near the top left of the screen.
-		# Using its own width and height just moves it to a location one away of itself.
 		self.rect.x = self.rect.width
 		self.rect.y = self.rect.height
 		
