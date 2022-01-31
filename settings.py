@@ -12,7 +12,7 @@ class Settings:
 			(self.screen_width, self.screen_height))
 		self.bg = pygame.image.load('images/background.png').convert()
 		
-		# cannon settings
+		# Cannon settings
 		self.cannon_limit = 3
 		
 		# Bullet settings
@@ -40,7 +40,6 @@ class Settings:
 		# fleet_direction of 1 represents right; -1 represents left
 		self.fleet_direction = 1
 		
-		# Scoring
 		self.soldier_points = 50
 		
 	def increase_speed(self):
