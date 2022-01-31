@@ -8,8 +8,6 @@ class Soldier(Sprite):
 		"""Initialize the soldier and set its starting position."""
 		super().__init__()
 		self.screen = ai_game.screen
-		# We call screen on every module because each game element
-		# needs its own 'surface' to run.
 		
 		self.settings = ai_game.settings
 		
